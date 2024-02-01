@@ -31,11 +31,11 @@ import { StyleSheet } from "react-native";
        flex :1,  
     },
     registerContainer:{
-        height:'70%',
+        height:'100%',
         width:'90%',
         margin:20,
         backgroundColor:'white',
-        borderRadius:10,
+        borderRadius:20,
         alignItems: 'center',
     },
     registerInputStyle:{
@@ -47,7 +47,12 @@ import { StyleSheet } from "react-native";
     },
     checkbox: {
         alignSelf: 'center',
-      },
+    },
+    scrollContainer: {
+        flexGrow: 1,
+        justifyContent: 'center',
+        padding: 16,
+    },
 
 })
 export default styles
