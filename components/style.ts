@@ -53,6 +53,14 @@ import { StyleSheet } from "react-native";
         justifyContent: 'center',
         padding: 16,
     },
+    btnStyle:{
+        marginTop:10, 
+        marginHorizontal:20
+    },
+    btnTextStyle:{
+        fontSize:20, 
+        margin:10  
+    }
 
 })
 export default styles
